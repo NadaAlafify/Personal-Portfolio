@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    
+      </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" tabindex="0"> <!-- scrolling with lightend <a> on navbar-->
+  <div class="first-section" id="first-section">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand ms-4 logo" href="#">Portofolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row">
+          <li class="nav-item">
+            <a class="nav-link active" href="#first-section">Home</a>
+          </li>
+          <li class="nav-item nav-item1">
+            <a class="nav-link active nav1-2" href="#second-section">Skills</a>
+          </li>
+          <li class="nav-item nav-item1">
+            <a class="nav-link active nav2-2" href="#third-section">Projects</a>
+          </li>
+          <!-- أيقونات -->
+          <li class="nav-item icons">
+            <a href="https://www.facebook.com/noda.abd" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Sheyarr76" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/nada-alafify-62656613a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <!-- زرار السيرش -->
+          <li class="nav-item search-btn ms-3">
+            <form>
+              <button class="btn btn-outline-success" type="submit">Let's Connect</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <!-- end navbar -->
+
+  <div class="main-section d-flex justify-content-between align-items-center">
+    <div class="text-section">
+      <h2>Welcome to my Portfolio</h2>
+      <h1>Nada Abdel<wbr>mohsen Alafify</h1>
+      <p id="typed-text"></p>
+      <div class="connect-section mt-4">
+        <span class="connect-text">Let's connect</span>
+        <a href="#contact" class="text-decoration-none text-dark ms-2"> 
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>            
+    </div>
+    <div class="image-section">
+      <div class="circle">
+        <img src="pic/pic1.jpg" alt="صورتك" />
+      </div>
+    </div>
+  </div>
+
+  </div>                                                         <!-- end first section ////////////////////////////////  -->
+
+  <div class="second-section" id="second-section">
+
+  <h1 class="h1-2">Skills</h1>
+  <p class=" h2-2"> take alook on mySkills</p>
+  <div class="skills-container">
+      <button class="arrow left"><i class="fas fa-chevron-left"></i></button>
+      <div class="skills">
+          <div class="skill" data-percentage="90" data-index="1">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">90%</span>
+              </div>
+              <span class="skill-name">CSS3</span>
+          </div>
+          <div class="skill" data-percentage="90" data-index="2">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">90%</span>
+              </div>
+              <span class="skill-name">Responsive Design</span>
+          </div>
+          <div class="skill" data-percentage="85" data-index="3">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">85%</span>
+              </div>
+              <span class="skill-name">JavaScript (ES6+)</span>
+          </div>
+          <div class="skill" data-percentage="80" data-index="4">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">80%</span>
+              </div>
+              <span class="skill-name">HTML5</span>
+          </div>
+          <div class="skill" data-percentage="75" data-index="5">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">75%</span>
+              </div>
+              <span class="skill-name">React</span>
+          </div>
+          <div class="skill" data-percentage="70" data-index="6">
+              <div class="circle-container">
+                  <svg class="circle" width="120" height="120">
+                      <circle class="circle-bg" cx="60" cy="60" r="55" />
+                      <circle class="circle-progress" cx="60" cy="60" r="55" stroke-dasharray="0 345.4" stroke-dashoffset="0" />
+                  </svg>
+                  <span class="percentage">70%</span>
+              </div>
+              <span class="skill-name">Node.js</span>
+          </div>
+      </div>
+      <button class="arrow right"><i class="fas fa-chevron-right"></i></button>
+  </div>
+  </div>                                                       <!-- second section end ///////////////////////////-->
+
+
+  <div class="third-section" id="third-section">
+    
+      <div class="tabs">
+        <div class="tab active" data-target="page1">Projects</div>
+        <div class="tab" data-target="page2">Certificates</div>
+        <div class="tab" data-target="page3">Contact me</div>
+      </div>
+    
+      <div id="page1" class="page show fade-in" >
+        <div class=" text-center py-5"  >
+          <div class="container"  style="background: #111;">
+            <div class="row g-4">
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <img src="pic/pic2.png" alt="صورة 1">
+                  <div class="card-text-overlay">
+                    <h5>Task1</h5>
+                    <p> Front-End Design project</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <img src="pic/pic3.png" alt="صورة 2">
+                  <div class="card-text-overlay">
+                    <h5>Task2</h5>
+                    <p> Front-End HTML5/CSS3 project</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <img src="pic/pic4.png" alt="صورة 3">
+                  <div class="card-text-overlay">
+                    <h5> Task3</h5>
+                    <p> Front-End bootstrap project</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <img src="pic/pic5.png" alt="صورة 4">
+                  <div class="card-text-overlay">
+                    <h5> Task4</h5>
+                    <p> Front-End JavaScript project</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <!-- <img src="pic/pic1.jpg" alt="صورة 5"> -->
+                   <h5 class="nothing"> Nothing yet </h5>
+                  <div class="card-text-overlay">
+                    <!-- <h5>عنوان </h5> -->
+                    <!-- <p>عنوان فرعي</p> -->
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4 col-sm-6">
+                <div class="image-card">
+                  <!-- <img src="pic/pic1.jpg" alt="صورة 6"> -->
+                  <h5 class="nothing"> Nothing yet </h5>
+
+                  <div class="card-text-overlay">
+                    <!-- <h5> Nothing yet </h5> -->
+                    <!-- <p>عنوان فرعي</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--page1 end ///////////////////////////////// -->
+    
+      <div id="page2" class="page">
+     <div class=" text-center py-5 parent3" style="background: #111;">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic6.jpg" alt="صورة 1">
+              <div class="card-text-overlay">
+                <h5> Mahara-Tech</h5>
+                <p> HTML & CSS Course</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic7.jpg" alt="صورة 2">
+              <div class="card-text-overlay">
+                <h5> NTI </h5>
+                <p> CCNA Routing & Switvhing </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic8.jpg" alt="صورة 3">
+              <div class="card-text-overlay">
+                <h5>HP-Life </h5>
+                <p>القيادة الفعالة </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic9.jpg" alt="صورة 4">
+              <div class="card-text-overlay">
+                <h5> Cisco Networking Academy </h5>
+                <p> Introduction to CyberSecurity</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic10.jpg" alt="صورة 5">
+              <div class="card-text-overlay">
+                <h5> Horus University</h5>
+                <p> Communication Skills session</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="image-card">
+              <img src="pic/pic11.png" alt="صورة 6">
+              <div class="card-text-overlay">
+                <h5> Edraak</h5>
+                <p> Advanced Excel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div> 
+            <!--page2 end ///////////////////////////////// -->
+
+    
+        <div id="page3" class="page" style="padding: 40px 20px; background: #111; color: #fff; text-align: center;">
+          <h2 style="font-size: 28px; margin-bottom: 10px;">Let's Connect</h2>
+          <p style="font-size: 18px; margin-bottom: 30px;">
+            I'm always open to collaboration or a friendly chat — reach out through:
+          </p>
+        
+          <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/noda.abd" target="_blank" style="text-decoration: none;">
+              <div style="width: 50px; height: 50px; background: #242424; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" style="width: 24px; filter: invert(1);">
+              </div>
+            </a>
+        
+            <!-- WhatsApp -->
+            <a href="https://wa.me/201557019490" target="_blank" style="text-decoration: none;">
+              <div style="width: 50px; height: 50px; background: #242424; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" style="width: 24px; filter: invert(1);">
+              </div>
+            </a>
+        
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/nada-alafify-62656613a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="text-decoration: none;">
+              <div style="width: 50px; height: 50px; background: #242424; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; filter: invert(1);">
+              </div>
+            </a>
+        
+            <!-- Twitter -->
+            <a href="https://twitter.com/Sheyarr76" target="_blank" style="text-decoration: none;">
+              <div style="width: 50px; height: 50px; background: #242424; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" style="width: 24px; filter: invert(1);">
+              </div>
+            </a>
+          </div>
+        </div>
+        
+  </div>                                                     <!--third section end //////////////////////////// -->
+
+ <div class="forth-section">
+    <div class="container4">
+      <div class="left">
+        <h2 class="floating-text">keep in <br> touch</h2>
+      </div>
+      <div class="right">
+        <h2>Get In Touch</h2>
+        <form>
+          <input class="input4" type="text" placeholder="First Name" required />
+          <input class="input4" type="text" placeholder="Last Name" required />
+          <input class="input4" type="email" placeholder="Email Address" required />
+          <input class="input4" type="tel" placeholder="Phone No." required />
+          <textarea class="input4" placeholder="Message" required></textarea>
+          <button type="submit" class="send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>                                                        <!--forth section end //////////////////////////////-->
+
+  <div class="fifth-section">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h2> to See My Projects At Once ,<br>leave Your E-mail Address Here</h2>
+      <form>
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="logo">Portfolio</div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/nada-alafify-62656613a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/noda.abd" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram" target="_blank"></i></a>
+          <a href="#"><i class="fab fa-github" target="_blank"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        © Copyrights 2025 - All Rights Reserved Here By Nada Alafify
+      </div>
+    </footer>
+  </div>                                                       <!-- fifth section end ///////////////////////////////// -->
+ 
+
+
+
+
+
+
+
+  <script>
+
+  </script> 
+  
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="script/script.js"></script>
+
+</body>
+</html>
+
